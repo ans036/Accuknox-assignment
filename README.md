@@ -2,7 +2,7 @@
 
 **Anish Sarkar**  
 B.Tech (AI & ML), Netaji Subhash Engineering College, Kolkata  
-
+GitHub: [https://github.com/ans036](https://github.com/ans036)
 
 ---
 
@@ -20,14 +20,14 @@ This repository contains solutions for AccuKnox's technical assessment, covering
 
 | Document | Description |
 |----------|-------------|
-| [ACCUKNOX___ASSIGNMENT_1.docx](docs/ACCUKNOX___ASSIGNMENT_1.docx) | Problem Statement 1 - Python & Database tasks |
-| [ACCUKNOX___ASSIGNMENT_2.docx](docs/ACCUKNOX___ASSIGNMENT_2.docx) | Problem Statement 2 - Self-rating, LLM Architecture & Vector DBs |
+| [ACCUKNOX_ASSIGNMENT_1_final.docx](docs/ACCUKNOX_ASSIGNMENT_1_final.docx) | Problem Statement 1 - Python & Database tasks |
+| [ACCUKNOX_ASSIGNMENT_2_final.docx](docs/ACCUKNOX_ASSIGNMENT_2_final.docx) | Problem Statement 2 - Self-rating, LLM Architecture & Vector DBs |
 
 ---
 
 ## Assignment 1 – Problem Statement 1
 
-*Full details and code available in: [`docs/ACCUKNOX___ASSIGNMENT_1.docx`](docs/ACCUKNOX___ASSIGNMENT_1.docx)*
+*Full details and code available in: [`docs/ACCUKNOX_ASSIGNMENT_1_final.docx`](docs/ACCUKNOX_ASSIGNMENT_1_final.docx)*
 
 ### Q1. Fetch Books from API → Store in SQLite → Display
 
@@ -52,6 +52,8 @@ Data analysis and visualization using pandas + matplotlib:
 
 ![Student Scores Bar Chart](figures/scores.png)
 
+*Figure 1 – Bar chart showing test scores by student with average line*
+
 ---
 
 ### Q3. Read Users from CSV → Insert into SQLite
@@ -71,7 +73,13 @@ Pipeline features:
 - Extracts PSD/DE/SE features from EEG signals
 - Generates ~50k scalp heatmaps
 - Chrononet-inspired CNN for patient classification
-- Achieves ~99% classification accuracy
+- Achieves ~93% classification accuracy
+
+**Confusion Matrix & Classification Report**:
+
+![Schizophrenia EEG Confusion Matrix](figures/Shizophrenia_CM.jpeg)
+
+*Figure 2 – Confusion matrix and classification report for Schizophrenia EEG classification*
 
 ---
 
@@ -84,11 +92,17 @@ Features:
 - Python scripts for data seeding and rule-based scoring
 - Mirrors patient-level data handling from Doyen Diagnostics internship
 
+**Database Schema**:
+
+![Chronic Disease Database Schema](figures/chronic_disease_schema.png)
+
+*Figure 3 – Entity-relationship diagram for the chronic disease burden tracking system*
+
 ---
 
 ## Assignment 2 – Problem Statement 2
 
-*Full details available in: [`docs/ACCUKNOX___ASSIGNMENT_2.docx`](docs/ACCUKNOX___ASSIGNMENT_2.docx)*
+*Full details available in: [`docs/ACCUKNOX_ASSIGNMENT_2_final.docx`](docs/ACCUKNOX_ASSIGNMENT_2_final.docx)*
 
 ### Q1. Self-Rating: LLM, Deep Learning, AI, ML
 
@@ -104,6 +118,8 @@ Features:
 ### Q2. High-Level LLM Chatbot Architecture
 
 ![LLM Chatbot Architecture](figures/llm_chatbot_architecture.png)
+
+*Figure 4 – High-level architecture diagram for an LLM-based chatbot system*
 
 **Components**:
 
@@ -154,17 +170,19 @@ Query: User question → Embed → Query Qdrant (with filters) → Retrieve top-
 
 ---
 
-## Assignment Structure
+## Project Structure
 
 ```
-accuknox-assignment/
+Accuknox-assignment/
 ├── README.md
 ├── docs/
-│   ├── ACCUKNOX___ASSIGNMENT_1.docx   # Assignment 1 - Full solutions
-│   └── ACCUKNOX___ASSIGNMENT_2.docx   # Assignment 2 - Full solutions
+│   ├── ACCUKNOX_ASSIGNMENT_1_final.docx   # Assignment 1 - Full solutions
+│   └── ACCUKNOX_ASSIGNMENT_2_final.docx   # Assignment 2 - Full solutions
 └── figures/
-    ├── scores.png                      # Generated bar chart (Q2)
-    └── llm_chatbot_architecture.png    # Architecture diagram (Q2.2)
+    ├── scores.png                          # Student scores bar chart (Q2)
+    ├── Shizophrenia_CM.jpeg                # EEG classification confusion matrix (Q4)
+    ├── chronic_disease_schema.png          # Database schema diagram (Q5)
+    └── llm_chatbot_architecture.png        # LLM chatbot architecture (Q2.2)
 ```
 
 ---
