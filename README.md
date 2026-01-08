@@ -170,7 +170,7 @@ Query: User question → Embed → Query Qdrant (with filters) → Retrieve top-
 
 ---
 
-## Project Structure
+## Assignment Structure
 
 ```
 Accuknox-assignment/
