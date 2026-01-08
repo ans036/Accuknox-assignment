@@ -2,7 +2,7 @@
 
 **Anish Sarkar**  
 B.Tech (AI & ML), Netaji Subhash Engineering College, Kolkata  
-GitHub: [https://github.com/ans036](https://github.com/ans036)
+
 
 ---
 
@@ -154,7 +154,7 @@ Query: User question → Embed → Query Qdrant (with filters) → Retrieve top-
 
 ---
 
-## Project Structure
+## Assignment Structure
 
 ```
 accuknox-assignment/
@@ -178,5 +178,4 @@ This project is for assessment purposes.
 ## Contact
 
 **Anish Sarkar**  
-GitHub: [@ans036](https://github.com/ans036)
 Email:  [ani.tubai022@gmail.com]
